@@ -1,3 +1,5 @@
+daylight = [true,false].sample
+
 def time_of_day(time)
   if time == true
     puts "It's daytime!"
@@ -6,5 +8,4 @@ def time_of_day(time)
   end
 end
 
-daylight = [true,false].sample
 time_of_day(daylight)
